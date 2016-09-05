@@ -34,13 +34,14 @@
 </style>
 
 <?php
-	
+	error_reporting(E_ALL ^ E_NOTICE ^ E_DEPRECATED); // Deprecated 抑制
 	date_default_timezone_set('Asia/Tokyo');	//タイムゾーンを日本に設定しま～～～す
 	ini_set( 'display_errors', 1 );
 
 	//手動で配置したdropbox-sdkを読み込む。ファイルパスはphpの場所に応じて適宜書き換えてください。
-	require_once dirname(__FILE__)."/../../../lib/Dropbox/autoload.php";
-	
+	//require_once dirname(__FILE__)."/../../../lib/Dropbox/autoload.php";
+	require('vendor/autoload.php');
+
 	// \Dropbox を dbx としても記述できるように定義する
 	use \Dropbox as dbx;
 	

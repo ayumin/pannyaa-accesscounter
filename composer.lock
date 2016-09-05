@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98524789e6a63e2fe1bc4102fcfe89a7",
-    "content-hash": "22e6170af921c38177d69106d730c7d3",
+    "hash": "4acc31e316a21906a295becb7dcdf7e4",
+    "content-hash": "af7493035110e48f6b972f56a2f3495f",
     "packages": [
         {
             "name": "dropbox/dropbox-sdk",
@@ -53,6 +53,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^5.6.0"
+    },
     "platform-dev": []
 }
