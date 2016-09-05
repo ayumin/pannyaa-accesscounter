@@ -1,6 +1,6 @@
 # Dropbox Access Counter
 
-[Original code](https://gist.github.com/PanNyaa/3652eafcc392199b2d5f) has writen by [PanNyaa](https://github.com/PanNyaa)
+[Original code](https://gist.github.com/PanNyaa/3652eafcc392199b2d5f) has been writen by [PanNyaa](https://github.com/PanNyaa)
 
 ## Setup
 
